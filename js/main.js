@@ -1,5 +1,5 @@
 $.ajax({
-    url: "http://api.weather.com/v2/aggregate/v2loc;v2obs;v2fcstdaily3;v2fcsthourly6;v2astro?geocode=34.06,-84.21&format=json&language=en-US&R2.units=e&R3.units=e&R4.units=e&R5.units=e&R5.days=2&apiKey=tsybhwupcwn4mw55m77euxh6r5pe639b",
+    url: "http://api.weather.com/v2/aggregate/v2loc;v2obs;v2fcstdaily3;v2fcsthourly6;v2astro?geocode=34.06,-84.21&format=json&language=en-US&R2.units=e&R3.units=e&R4.units=e&R5.units=e&R5.days=2&apiKey=[CLIENT-KEY]",
     dataType: "json",
     type: "GET",
     success: function(json) {
