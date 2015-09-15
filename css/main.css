@@ -1,0 +1,64 @@
+body {
+    margin-left: auto;
+    margin-right: auto;
+    width: 960px;
+}
+
+div#main {
+    float: left;
+    overflow: auto;
+    padding: 10px;
+    width: 820px; 
+}
+
+div#location {
+    font-size: 24px;
+    font-weight: bold;
+}
+
+div#wrapper {
+    overflow: auto;
+    width: 600px; 
+}
+
+div#lcond, 
+div#mcond, 
+div#rcond {
+    float: left;
+    margin: 0 10px 0 0;
+    overflow: auto;
+    width: 250px;
+}
+
+div#mcond, 
+div#rcond {
+    font-size: 14px;
+    margin: 0;
+    width: 140px;
+}
+
+div#inner_lcond, 
+div#inner_rcond {
+    float: left;
+    width: 85px;
+}
+
+div#inner_rcond {
+    padding: 10px 20px 0 0;
+    width: 140px;
+}
+
+div#lcond div#inner_rcond div#temp {
+    font-size: 35px;
+    font-weight: bold;
+}
+
+div#lcond div#inner_rcond div#condition {
+    font-size: 20px;
+    font-weight: normal;
+}
+
+div#mcond div#pressure, 
+div#rcond div#high {
+    padding: 10px 0 0 0;
+}
